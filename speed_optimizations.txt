@@ -1,0 +1,13 @@
+Optimizations
+
+Started with 400px x 400px pictures, made smaller (250px x 250px) using Photoshop, the optimized using optimizilla.com . Because I used the images as backgrounds for my divs I could not get Sprites to work for me.
+
+Changed <Title> to Dog Grooming|@CSPCA|GROOMED
+
+Then added the meta "Description" tag of over 150 characters to index page.
+
+Setup caching on website using .htaccess
+
+added a sitemap.xml and added robots.txt to direct google to it.
+
+Enabled gzip compression

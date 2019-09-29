@@ -1,0 +1,198 @@
+main 
+{
+	display : flex;
+	width : 60%;
+	margin-left : auto;
+	margin-right : auto;
+	flex-flow : row wrap;
+	
+}
+header
+{
+/*	display : flex;
+	width : 60%;
+	margin-left : auto;
+	margin-right : auto;
+	flex-flow : row wrap;*/
+	
+}
+nav
+{
+	display : flex;
+	margin : auto;
+	-webkit-padding-start : 0px;
+	justify-content : center;
+}
+nav ul
+{
+	padding : 0px;
+
+}
+nav li
+{
+	display : inline-block;
+	text-decoration : none;
+	margin-bottom : auto;
+	margin-left : 5px;
+	margin-right : 5px;
+	padding : 5px;
+	box-shadow : 2px 3px 3px 2px rgba(204, 0, 102, 0.2);
+	border-color : #800040;
+	border-width : 1px;
+	border-style : solid;
+	transition-duration : 2s;
+	-webkit-transition-duration : 2s;
+	border-radius : 3px;
+	font-family : mons;
+}
+nav li:hover
+{
+	transform : scale(1.1);
+}
+html
+{
+	min-height : 100%;
+	background : linear-gradient(0deg, #b30059, white)
+}
+header h1
+{
+	font-family : mons;
+	font-size : 60px;
+	text-align : center;
+}
+main section
+{
+	min-height : 150px;
+	min-width : 150px;
+}
+section.innersection
+{
+	margin : 10px;
+	box-shadow : 2px 3px 3px 2px rgba(204, 0, 102, 0.2);
+	border-color : #800040;
+	border-width : 1px;
+	border-style : solid;
+	transition-duration : 2s;
+	-webkit-transition-duration : 2s;
+	height : auto;
+	width : auto;
+	
+}
+section.innersection:hover 
+{
+	transform : scale(1.1);
+}
+
+.responsiveimage
+{
+	max-width : 100%;
+	height : auto;
+	
+}
+
+#box1
+{
+	flex-basis : 60%;
+}
+#box2
+{
+	flex-basis : 40%;
+}
+#box3
+{
+	flex-basis : 33.33%;
+}
+#box4
+{
+	flex-basis : 33.33%;
+}
+#box5
+{
+	flex-basis : 33.33%;
+}
+#Gallery1
+{
+	flex-basis : 25%;
+}
+#Gallery2
+{
+	flex-basis : 25%;
+}
+#Gallery3
+{
+	flex-basis : 25%;
+}
+#Gallery4
+{
+	flex-basis : 25%;
+}
+#Gallery5
+{
+	flex-basis : 25%;
+}
+#Gallery6
+{
+	flex-basis : 25%;
+}
+#Gallery7
+{
+	flex-basis : 25%;
+}
+#Gallery8
+{
+	flex-basis : 25%;
+}
+#Gallery9
+{
+	flex-basis : 25%;
+}
+#Gallery10
+{
+	flex-basis : 25%;
+}
+#Gallery11
+{
+	flex-basis : 25%;
+}
+#Gallery12
+{
+	flex-basis : 25%;
+}
+#price1
+{
+	flex-basis : 50%;
+	
+}
+#pricepic1
+{
+	flex-basis : 50%;
+}
+@media (max-width : 800px)
+{
+	#box1
+	{
+		flex-basis : 100%;
+	}
+	#box2, #box3, #box4, #box5, #Gallery1, #Gallery2, #Gallery3, #Gallery4, #Gallery5, #Gallery6, #Gallery7, #Gallery8, #Gallery9, #Gallery10, #Gallery11, #Gallery12
+	{
+		flex-basis : 50%;
+	}
+}
+@media (max-width : 600px)
+{
+	#box1, #box2, #box3, #box4, #box5, #Gallery1, #Gallery2, #Gallery3, #Gallery4, #Gallery5, #Gallery6, #Gallery7, #Gallery8, #Gallery9, #Gallery10, #Gallery11, #Gallery12
+	{
+		flex-basis : 100%;
+	}
+	
+}
+@font-face
+{
+	font-family : mons;
+	src: url('fonts/Montserrat-Regular.ttf')
+}
+@font-face
+{
+	font-family : monsb;
+	src: url('fonts/Montserrat-Bold.ttf')
+}
